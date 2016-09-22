@@ -1,0 +1,22 @@
+git行為請盡量透過Visual Studio操作  如果可以少進入bash
+
+因為Git Bash為以MinGW64為基礎所建立的bash環境
+
+而MinGW64是將linux整個系統環境搬過來 所以會有幾個問題:
+
+1. UNIX檔案系統與Windows檔案系統不相容 請勿使用任何權限相關指令 
+   例如：chmod  mount  ......
+
+2. 承1，Readme.txt中有提到
+  SDK與套件安裝至D:\package\
+  將引用資料夾link至D:\package\include
+  將靜態連結檔link至D:\package\lib
+
+  link的方式用管理者開啟Git Bash使用指令
+  範例 ln -s "D:\package\vulkan\1.0.24.0\include\vulkan" "D:\package\include\vulkan" 
+  
+  #注意此動作會覆蓋已存在物件  請link成原本不存在的資料夾或檔案
+
+3. 承1，請勿在此環境操作別人的檔案
+
+//16th,Sep,16 Sidney_Niu編輯
