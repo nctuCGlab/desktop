@@ -4,3 +4,10 @@
   Edge:"D:\download\dege"
   IE:"D:\download\ie"
   其他依此類推 下載完檔案請自行備份至私人檔案區 
+
+
+瀏覽器使用無痕比較安全
+chrome : ctrl + n
+firefox : ctrl + p
+
+另外標籤過於雜亂任何人可以清理呦
