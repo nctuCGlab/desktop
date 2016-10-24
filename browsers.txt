@@ -1,0 +1,6 @@
+下載資料夾設置:
+  chrome:"D:\download\chrome"
+  Firefox:"D:\download\firefox"
+  Edge:"D:\download\dege"
+  IE:"D:\download\ie"
+  其他依此類推 下載完檔案請自行備份至私人檔案區 
