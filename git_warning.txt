@@ -7,10 +7,11 @@ git行為請盡量透過Visual Studio操作  如果可以少進入bash
 1. UNIX檔案系統與Windows檔案系統不相容 請勿使用任何權限相關指令 
    例如：chmod  mount  ......
 
-2. 承1，Readme.txt中有提到
-  SDK與套件安裝至D:\package\
+2. SDK等套件安裝習慣建議D:\package\系列\套件\版本
   將引用資料夾link至D:\package\include
   將靜態連結檔link至D:\package\lib
+  將動態連結檔link至D:\package\lib 並將此放入user的PATH
+  以便之後編譯器去抓環境
 
   link的方式用管理者開啟Git Bash使用指令
   範例 ln -s "D:\package\vulkan\1.0.24.0\include\vulkan" "D:\package\include\vulkan" 
