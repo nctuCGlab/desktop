@@ -19,4 +19,4 @@ git行為請盡量透過Visual Studio操作  如果可以少進入bash
 
 3. 承1，請勿在此環境操作別人的檔案
 
-//16th,Sep,16 Sidney_Niu編輯
+//24th,Oct,16 Sidney_Niu編輯
