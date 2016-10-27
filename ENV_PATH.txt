@@ -1,0 +1,12 @@
+控制台(或直接對開始右鍵) -> 系統 -> 進階系統設定 -> 環境變數(N) -> "user" 的使用者變數
+
+先在使用者變數區加入一變數 PATH 內容 %PATH%;
+
+
+如果覺得https://github.com/shihcgvr/desktop/blob/master/git_warning.txt
+使用bash連結太麻煩，將所有引用資料夾放在這邊，
+
+例如 ENV_INCLUDE 內容 D:\package\vulkan\1.0.30.0\Include;D:\package\OpenGL\glew\2.0.0\include
+     ENV_LIB 內容 D:\package\OpenGL\glew\2.0.0\lib\Release\x64
+     
+在VS14中引用即可
