@@ -1,7 +1,8 @@
+任何系統相關設定請先記錄以便還原錯誤
+
 控制台(或直接對開始右鍵) -> 系統 -> 進階系統設定 -> 環境變數(N) -> "user" 的使用者變數
 
-先在使用者變數區加入一變數 PATH 內容 %PATH%;
-
+先在使用者變數區加入一變數 PATH 內容  使用方式  "your_path1";"your_path2";%PATH%
 
 如果覺得https://github.com/shihcgvr/desktop/blob/master/git_warning.txt
 使用bash連結太麻煩，將所有引用資料夾放在這邊，
