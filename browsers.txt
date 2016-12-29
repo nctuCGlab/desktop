@@ -1,8 +1,9 @@
 下載資料夾設置:
-  chrome:"D:\download\chrome"
-  Firefox:"D:\download\firefox"
-  Edge:"D:\download\dege"
-  IE:"D:\download\ie"
+  chrome: "D:\download\chrome"
+  Firefox: "D:\download\firefox"
+  Edge: "D:\download\dege"
+  IE: "D:\download\ie"
+  FileZilla: "D:\download\FileZilla"
   其他依此類推 下載完檔案請自行備份至私人檔案區 
 
 
@@ -10,4 +11,4 @@
 chrome : ctrl + n
 firefox : ctrl + p
 
-另外標籤過於雜亂任何人可以清理呦
+另外瀏覽器標籤過於雜亂任何人可以清理呦
