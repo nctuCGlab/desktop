@@ -1,7 +1,3 @@
-將所有include或lib/dll資料夾放置一個環境變數即可
-參考https://github.com/shihcgvr/desktop/blob/master/ENV_PATH.txt
-
-
 git行為請盡量透過Visual Studio操作  如果可以少進入bash
 
 因為Git Bash為以MinGW64為基礎所建立的bash環境
