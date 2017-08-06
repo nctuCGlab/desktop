@@ -2,8 +2,8 @@ git行為請盡量透過Visual Studio操作  如果可以少進入bash
 
 因為Git Bash為以MinGW64為基礎所建立的bash環境
 
-而MinGW64是將linux整個系統環境搬過來 因此UNIX檔案系統與Windows檔案系統不相容 
-  請勿使用任何權限相關指令 例如：chmod  mount  ......
+MinGW64是將linux整個系統環境搬過來 因此UNIX檔案系統與Windows檔案系統不相容 
+所以不要使用任何權限相關指令 例如：chmod  mount  ......
 
 git可在PowerShell裡面使用  所以不要使用git bash
 
